@@ -1,5 +1,5 @@
-LC_ALL=en_US.UTF-8
-LANG=en_US.UTF-8
+LC_ALL=EN_US.UTF-8
+LANG=EN_US.UTF-8
 
 var='абвгдежзиклмноп '
 echo -"$var"- ${#var}

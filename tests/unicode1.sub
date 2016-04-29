@@ -574,7 +574,7 @@ C_UTF_8=(
 
 
  )
-TestCodePage en_US.UTF-8 C_UTF_8
+TestCodePage EN_US.UTF-8 C_UTF_8
 
 if [ ${ErrorCnt} -gt 0 ]; then
   echo "Failed ${ErrorCnt} of ${TestCnt} Unicode tests"

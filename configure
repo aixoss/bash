@@ -11270,7 +11270,7 @@ char    **v;
 {
         int     w;
 
-        setlocale(LC_ALL, "en_US.UTF-8");
+        setlocale(LC_ALL, "EN_US.UTF-8");
         w = wcwidth (0x0301);
         exit (w == 0);  /* exit 0 if wcwidth broken */
 }
